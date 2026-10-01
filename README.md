@@ -1,47 +1,47 @@
-# אינפי 1 — בר־אילן, סמסטר א' תשפ"ז (2026–27)
+# Infi 1 — Bar-Ilan University, Fall 2026/27
 
-מרצה: יוני זוהר.
-[עמוד הקורס באתר הקורסים של בר־אילן](https://courses.biu.ac.il/CourseDetails.aspx?lid=822310).
+Lecturer: Yoni Zohar.
+[Course page on the Bar-Ilan course catalog](https://courses.biu.ac.il/CourseDetails.aspx?lid=822310).
 
-## פורום הקורס
+## Forum
 
-שאלות, הודעות ודיונים מתנהלים ב־[Discussions](../../discussions) של המאגר הזה.
-כדי לקרוא לא צריך חשבון. כדי לשאול או לענות צריך חשבון GitHub (חינמי, ושימושי בכל מקרה).
+Announcements, questions, and discussion happen in this repository's [Discussions](../../discussions).
+Reading requires no account. Posting or replying requires a (free) GitHub account.
+Posts in Hebrew are welcome.
 
-- **הודעות** — הודעות מהמרצה. כדאי ללחוץ על Watch כדי לקבל אותן במייל.
-- **שאלות** — שאלות על החומר. אפשר לסמן תשובה כנכונה.
-- **תרגילי בית** — שאלות והבהרות על התרגילים.
-- **כללי** — כל השאר.
+- **Announcements** — messages from the lecturer. Click **Watch** at the top of the repo to get them by email.
+- **Q&A** — questions about the material and the homework. Answers can be marked as accepted.
+- **General** — everything else.
 
-נוסחאות כותבים ב־LaTeX בין סימני דולר: `$\lim_{n\to\infty} a_n = L$` יוצג כ־$\lim_{n\to\infty} a_n = L$.
+Write math in LaTeX between dollar signs: `$\lim_{n\to\infty} a_n = L$` renders as $\lim_{n\to\infty} a_n = L$.
 
-## שעות
+## Schedule
 
-- ג' 13:00–15:00
-- ד' 9:00–11:00
+- Tuesday 13:00–15:00
+- Wednesday 9:00–11:00
 
-סמסטר א': ראשון 11.10.2026 – ראשון 17.1.2027.
+Fall semester: Sunday 11.10.2026 – Sunday 17.1.2027.
 
-## בחינות
+## Exams
 
-- מועד א': ראשון 7.2.2027, 16:00
-- מועד ב': שישי 26.2.2027, 9:00
+- Moed A: Sunday 7.2.2027, 16:00
+- Moed B: Friday 26.2.2027, 9:00
 
-## ציון
+## Grading
 
-- בחינה: 80%
-- בוחן: 10%
-- תרגילי בית: 10%
+- Final exam: 80%
+- Quiz: 10%
+- Homework: 10%
 
-כדי לעבור את הקורס יש לעבור כל אחד מרכיבי הציון בנפרד, למעט הבוחן.
+Each component except the quiz must be passed separately.
 
-## מקורות
+## Textbook
 
-- V. A. Zorich, *Mathematical Analysis I*, פרקים 2–5. התכנית עוקבת אחריו, עם שתי תוספות: אקסיומות הממשיים במלואן בפתיחה, ובניית ℝ בחתכי דדקינד בסיום.
+- V. A. Zorich, *Mathematical Analysis I*, chapters 2–5. The course follows it, with two additions: the complete axioms of the reals at the start, and the construction of ℝ via Dedekind cuts at the end.
 
-## תוכן המאגר
+## Contents
 
-- `notes/` — סיכומי הרצאות.
-- `homework/` — תרגילי בית.
+- `notes/` — lecture notes.
+- `homework/` — homework assignments.
 
-מצאתם טעות בסיכומים? פתחו Issue או שלחו Pull Request.
+Found a mistake in the notes? Open an issue or send a pull request.
