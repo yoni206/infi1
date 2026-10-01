@@ -5,12 +5,9 @@ Lecturer: Yoni Zohar.
 
 ## Forum
 
-Questions and discussion happen in this repository's [Discussions](../../discussions).
+Questions about the material and the homework go in this repository's [Discussions](../../discussions).
 Reading requires no account. Posting or replying requires a (free) GitHub account.
-Posts in Hebrew are welcome.
-
-- **Q&A** — questions about the material and the homework. Answers can be marked as accepted.
-- **General** — everything else.
+Posts in Hebrew are welcome. Answers can be marked as accepted.
 
 Click **Watch** at the top of the repo to get new posts by email.
 Official course announcements are sent through the university's channels, not here.
