@@ -5,13 +5,15 @@ Lecturer: Yoni Zohar.
 
 ## Forum
 
-Announcements, questions, and discussion happen in this repository's [Discussions](../../discussions).
+Questions and discussion happen in this repository's [Discussions](../../discussions).
 Reading requires no account. Posting or replying requires a (free) GitHub account.
 Posts in Hebrew are welcome.
 
-- **Announcements** — messages from the lecturer. Click **Watch** at the top of the repo to get them by email.
 - **Q&A** — questions about the material and the homework. Answers can be marked as accepted.
 - **General** — everything else.
+
+Click **Watch** at the top of the repo to get new posts by email.
+Official course announcements are sent through the university's channels, not here.
 
 Write math in LaTeX between dollar signs: `$\lim_{n\to\infty} a_n = L$` renders as $\lim_{n\to\infty} a_n = L$.
 
