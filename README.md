@@ -1,8 +1,8 @@
 # אינפי 1 — אוניברסיטת בר־אילן, סמסטר א' תשפ"ז (2026–27)
 
-מרצה: [יוני זוהר](https://u.cs.biu.ac.il/~zoharyo1/).
-מתרגלים: צביקה ברגר ואלעד עטייא.
-[עמוד הקורס באתר הקורסים של בר־אילן](https://courses.biu.ac.il/CourseDetails.aspx?lid=822310).
+- מרצה: [יוני זוהר](https://u.cs.biu.ac.il/~zoharyo1/)
+- מתרגלים: צביקה ברגר ואלעד עטייא
+- אתר הקורס: [courses.biu.ac.il](https://courses.biu.ac.il/CourseDetails.aspx?lid=822310)
 
 ## מטרות
 
