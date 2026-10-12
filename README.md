@@ -2,7 +2,7 @@
 
 - מרצה: [יוני זוהר](https://u.cs.biu.ac.il/~zoharyo1/)
 - מתרגלים: צביקה ברגר ואלעד עטייא
-- אתר הקורס: [courses.biu.ac.il](https://courses.biu.ac.il/CourseDetails.aspx?lid=822310)
+- [עמוד הקורס במערכת השעות של האוניברסיטה](https://courses.biu.ac.il/CourseDetails.aspx?lid=822310)
 
 ## מטרות
 
