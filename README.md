@@ -72,9 +72,9 @@
 <tr><th colspan="6">חלק I — המספרים הממשיים (1–4)</th></tr>
 <tr>
   <td></td>
-  <td>$${\color{red}\text{ג' 13.10}}$$</td>
+  <td>ג' 13.10</td>
   <td>—</td>
-  <td>$${\color{red}\text{אין שיעור (חופשת לימודים)}}$$</td>
+  <td>אין שיעור (חופשת לימודים)</td>
   <td>—</td>
   <td>—</td>
 </tr>
@@ -128,9 +128,9 @@
 </tr>
 <tr>
   <td></td>
-  <td>$${\color{red}\text{ג' 27.10}}$$</td>
+  <td>ג' 27.10</td>
   <td>—</td>
-  <td>$${\color{red}\text{אין שיעור (יום הבחירות)}}$$</td>
+  <td>אין שיעור (יום הבחירות)</td>
   <td>—</td>
   <td>—</td>
 </tr>
@@ -197,9 +197,9 @@
 </tr>
 <tr>
   <td></td>
-  <td>$${\color{red}\text{ד' 11.11}}$$</td>
+  <td>ד' 11.11</td>
   <td>—</td>
-  <td>$${\color{red}\text{אין שיעור}}$$</td>
+  <td>אין שיעור</td>
   <td>—</td>
   <td>—</td>
 </tr>
