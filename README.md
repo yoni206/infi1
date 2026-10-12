@@ -23,7 +23,7 @@
 
 ## ביבליוגרפיה
 
-- זוריך: V. A. Zorich, *Mathematical Analysis I*, פרקים 2–5.
+- V. A. Zorich, *Mathematical Analysis I*, פרקים 2–5.
 - חומרים נוספים יימסרו במידת הצורך.
 
 ## לוח שנה
