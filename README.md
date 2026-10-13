@@ -31,7 +31,7 @@
 ## ביבליוגרפיה
 
 <ul dir="rtl">
-<li>V. A. Zorich, <em>Mathematical Analysis I</em>, פרקים 2–5.</li>
+<li>V. A. Zorich, <em>Mathematical Analysis I</em>.</li>
 <li>דוד מייזלר, <em>חשבון אינפיניטסימלי</em>, בעריכת משה ירדן, הוצאת אקדמון.</li>
 <li>חומרים נוספים יימסרו במידת הצורך.</li>
 </ul>
