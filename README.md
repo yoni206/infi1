@@ -64,7 +64,6 @@
 <tr><td>III — טורים</td><td>11–14</td><td>§3.1.4</td></tr>
 <tr><td>IV — פונקציות: גבולות ורציפות</td><td>15–19</td><td>§3.2 + פרק 4</td></tr>
 <tr><td>V — נגזרות</td><td>20–25</td><td>פרק 5</td></tr>
-<tr><td>בונוס: בניית ℝ</td><td>26</td><td>—</td></tr>
 </tbody>
 </table>
 </div>
