@@ -1,7 +1,7 @@
 # אינפי 1 — אוניברסיטת בר־אילן, סמסטר א' תשפ"ז (2026–27)
 
 - מרצה: [יוני זוהר](https://u.cs.biu.ac.il/~zoharyo1/)
-- מתרגל: צביקה ברגר
+- מתרגל: [צביקה ברגר](https://bergerzvika.github.io/Advanced-Programming/home.html)
 - [עמוד הקורס במערכת השעות של האוניברסיטה](https://courses.biu.ac.il/CourseDetails.aspx?lid=822310)
 
 ## מטרות
