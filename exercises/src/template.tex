@@ -1,0 +1,40 @@
+% תבנית לתרגיל חדש: העתיקו לקובץ exN.tex, מלאו, והריצו make
+\documentclass{infi-ex}
+
+\exnumber{N}
+\extopic{נושא התרגיל}
+% \exdue{יום ראשון 1.11.2026}   % אופציונלי
+
+\begin{document}
+\makeextitle
+
+% אופציונלי: תיבת הנחיות
+\begin{instructions}
+יש לנמק כל טענה.
+\end{instructions}
+
+% אופציונלי: כותרת ביניים לקבוצת שאלות
+\topic{נושא משנה}
+
+\begin{question}
+טקסט השאלה, עם מתמטיקה $x\in\R$ ותצוגה:
+\[ A=\set{x\in\R}{x^2<2} \]
+\end{question}
+
+\begin{question}[שאלה עם כותרת][20]   % [כותרת][ניקוד], שניהם אופציונליים
+\begin{parts}
+  \item סעיף א.
+  \item סעיף ב, עם תת־סעיפים:
+    \begin{parts}
+      \item תת־סעיף.
+      \item תת־סעיף.
+    \end{parts}
+\end{parts}
+\end{question}
+
+\goodluck   % אופציונלי: "בהצלחה!" בסוף התרגיל
+
+% אופציונלי: טבלת אקסיומות הממשיים בעמוד נפרד
+% \input{axioms}
+
+\end{document}

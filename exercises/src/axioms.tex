@@ -1,0 +1,79 @@
+% axioms.tex — טבלת אקסיומות הממשיים (מהכיתה). לצירוף לתרגיל: \input{axioms}
+\newpage
+\begingroup
+\renewcommand\arraystretch{1.2}
+\newcommand\axsec[1]{\par\addvspace{5pt}{\sffamily\bfseries\color{exaccent}#1}\par\nopagebreak\vspace{2pt}}
+\newenvironment{axtable}{%
+  \noindent\small
+  \rowcolors{2}{white}{exlight}%
+  \begin{tabular}{>{\raggedright}p{0.23\linewidth}>{\raggedright}p{0.45\linewidth}>{\raggedright\arraybackslash}p{0.24\linewidth}}
+  \rowcolor{exaccent}
+  \textcolor{white}{\sffamily\bfseries שם} &
+  \textcolor{white}{\sffamily\bfseries אקסיומה} &
+  \textcolor{white}{\sffamily\bfseries הערות} \\}
+  {\end{tabular}\par}
+
+\begin{center}
+  {\sffamily\Large\bfseries\color{exaccent}נספח: אקסיומות המספרים הממשיים}
+\end{center}
+
+\axsec{סימנים}
+\begin{itemize}
+  \item לוגיים: $\land,\ \lor,\ \lnot,\ \to,\ \leftrightarrow,\ \forall,\ \exists,\ =$
+  \item קבוצות: $\in,\ \subseteq,\ \emptyset$
+  \item ממשיים: $+,\ \cdot,\ \le,\ 0,\ 1$, משתנים $x,y,z,\dots$
+\end{itemize}
+
+\axsec{סימונים וקיצורים}
+\begin{tabular}{p{0.3\linewidth}p{0.3\linewidth}p{0.3\linewidth}}
+$x<y$ קיצור של $x\le y\land x\ne y$ &
+$x>y$ קיצור של $y<x$ &
+$x\ge y$ קיצור של $y\le x$ \\
+$x-y$ קיצור של $x+(-y)$ &
+$\frac xy$ קיצור של $x\cdot y^{-1}$ &
+$xy$ קיצור של $x\cdot y$
+\end{tabular}
+
+\axsec{אקסיומות החיבור}
+\begin{axtable}
+איבר נייטרלי לחיבור & $\forall y.\ y+0=y$ & \\
+איבר הופכי לחיבור & $\forall x.\exists y.\ x+y=0$ & האיבר $y$ מסומן ב־\mbox{$-x$} \\
+אסוציאטיביות החיבור & $\forall x.\forall y.\forall z.\ (x+y)+z=x+(y+z)$ & \\
+קומוטטיביות החיבור & $\forall x.\forall y.\ x+y=y+x$ & \\
+\end{axtable}
+
+\axsec{אקסיומות הכפל}
+\begin{axtable}
+איבר נייטרלי לכפל & $1\ne0\land\forall y.\ 1\cdot y=y$ & \\
+איבר הופכי לכפל & $\forall x.\ (x\ne0\to\exists y.\ x\cdot y=1)$ & האיבר $y$ מסומן ב־\mbox{$x^{-1}$} \\
+אסוציאטיביות הכפל & $\forall x.\forall y.\forall z.\ x\cdot(y\cdot z)=(x\cdot y)\cdot z$ & \\
+קומוטטיביות הכפל & $\forall x.\forall y.\ x\cdot y=y\cdot x$ & \\
+\end{axtable}
+
+\axsec{האקסיומה המקשרת בין כפל וחיבור}
+\begin{axtable}
+דיסטריביוטיביות & $\forall x.\forall y.\forall z.\ x\cdot(y+z)=(x\cdot y)+(x\cdot z)$ & \\
+\end{axtable}
+
+\axsec{אקסיומות יחס הסדר}
+\begin{axtable}
+רפלקסיביות & $\forall x.\ x\le x$ & \\
+אנטי־סימטריות & $\forall x.\forall y.\ (x\le y\land y\le x)\to x=y$ & \\
+טרנזיטיביות & $\forall x.\forall y.\forall z.\ (x\le y\land y\le z)\to x\le z$ & \\
+לינאריות & $\forall x.\forall y.\ x\le y\lor y\le x$ & \\
+\end{axtable}
+
+\axsec{אקסיומות המקשרות בין הפעולות ויחס הסדר}
+\begin{axtable}
+מונוטוניות החיבור & $\forall x.\forall y.\forall z.\ x\le y\to x+z\le y+z$ & \\
+מונוטוניות הכפל & $\forall x.\forall y.\ (x\ge0\land y\ge0)\to x\cdot y\ge0$ & \\
+\end{axtable}
+
+\axsec{אקסיומת השלמות}
+\begin{axtable}
+שלמות &
+$\forall X.\forall Y.\ \bigl(X\ne\emptyset\land Y\ne\emptyset\land\forall x\in X.\forall y\in Y.\ x\le y\bigr)$
+$\to\bigl(\exists c.\forall x\in X.\forall y\in Y.\ x\le c\le y\bigr)$ &
+האקסיומה החשובה ביותר \\
+\end{axtable}
+\endgroup

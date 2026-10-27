@@ -1,0 +1,45 @@
+\documentclass{infi-ex}
+
+\exnumber{2}
+\extopic{המספרים הממשיים}
+
+\begin{document}
+\makeextitle
+
+\begin{instructions}
+יש להוכיח את הטענות הבאות בעזרת האקסיומות של הממשיים בלבד (בסוף התרגיל מצורפת הטבלה מהכיתה).
+
+\textbf{הערה:} מותר להשתמש בטענות שהוכחו בהרצאה או בתרגול בלי להוכיח אותן, אבל יש לציין איפה ראיתם את ההוכחה.
+\end{instructions}
+
+\begin{question}[קיום איבר נייטרלי יחיד לחיבור]
+\[ \forall x.\forall y.\ \bigl((\forall z.\ x+z=z\land y+z=y)\to x=y\bigr) \]
+\end{question}
+
+\begin{question}[האיבר ההופכי לכפל של מספר חיובי הוא גם חיובי]
+\[ \forall x.\ 0<x\to0<x^{-1} \]
+\end{question}
+
+\begin{question}[שלילת השלילה]
+\[ \forall x.\ -(-x)=x \]
+\end{question}
+
+\begin{question}[היפוך הסדר של ההופכי לחיבור]
+\[ \forall x.\forall y.\ x\le y\to -y\le -x \]
+\end{question}
+
+\begin{question}[כלל הצמצום בחיבור]
+\[ \forall x.\forall y.\forall z.\ x+z=y+z\to x=y \]
+\end{question}
+
+\begin{question}[כפל במינוס אחד]
+\[ \forall x.\ (-1)\cdot x=-x \]
+\end{question}
+
+\begin{question}[טרנזיטיביות של $<$]
+\[ \forall x.\forall y.\forall z.\ (x<y\land y<z)\to x<z \]
+\end{question}
+
+\input{axioms}
+
+\end{document}
