@@ -175,6 +175,8 @@
   <td>—</td>
   <td><ul dir="rtl">
     <li>אריתמטיקה של גבולות</li>
+    <li>‎aₙ→L ⇒ |aₙ|→|L|‎</li>
+    <li>‎aₙ→L, aₙ,L>0 ⇒ √aₙ→√L‎</li>
   </ul></td>
 </tr>
 <tr>
