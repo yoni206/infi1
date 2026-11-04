@@ -50,6 +50,8 @@
 ## הקלטות
 
 - [הקלטות השיעורים](lectures/recordings.md)
+-[הקלטות תרגולים](https://www.youtube.com/playlist?list=PLaMkJ2Pfx92JNpmj6rZYWblxXFgUeOa8m)
+
 
 ## פורום
 
