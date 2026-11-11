@@ -33,6 +33,7 @@
 <ul dir="rtl">
 <li>V. A. Zorich, <em>Mathematical Analysis I</em>.</li>
 <li>דוד מייזלר, <em>חשבון אינפיניטסימלי</em>.</li>
+<li>אלעד עטייא, <a href="https://www.youtube.com/playlist?list=PLoYUspZp-feMhzY90PqUI0RFcxf8wbuYV">הרצאות אינפי 1 ב־YouTube</a>.</li>
 <li>חומרים נוספים יימסרו במידת הצורך.</li>
 </ul>
 
