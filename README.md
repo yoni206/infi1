@@ -258,7 +258,6 @@
   <td><ul dir="rtl">
     <li>limsup ו־liminf הם הגבולות החלקיים הגדול והקטן</li>
     <li>התכנסות ⇔ limsup=liminf</li>
-    <li>ירושה לתת־סדרות; קריטריון הזוגית/אי־זוגית</li>
   </ul></td>
 </tr>
 <tr><th colspan="6">חלק III — טורים (11–14)</th></tr>
