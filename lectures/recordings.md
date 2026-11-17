@@ -8,4 +8,4 @@
 | 4 | 28.10.2026 | [צפייה](https://biu-ac-il.zoom.us/rec/share/ZP0cz79INbZzm541QFmnkPV_1LYh3yIHPjq-Ig7lfle96BEPiOcIjy4kTJcUJ-34.QIEaR_TE3osY0boa) |
 | 5 | 03.11.2026 | אין הקלטה |
 | 6–7 | 06.11.2026 | [צפייה](https://biu-ac-il.zoom.us/rec/share/lUWDe__qYFN9boIF05A61skdx-yrejeeoYdQU0rjls74XqhUrxV3AaJpIXoif8BG.tOmv7F-1qTMliNmx) |
-| 8 | 17.11.2026 | [צפייה](https://biu-ac-il.zoom.us/rec/share/xZsdAG25NTl4tdJOZH79NsvYqEAPG1u56VRaO8kPk6CW37MllhuauVLfxMbweLMM.wAu2XwCScDxiW7uc) |
+| 9 | 17.11.2026 | [צפייה](https://biu-ac-il.zoom.us/rec/share/xZsdAG25NTl4tdJOZH79NsvYqEAPG1u56VRaO8kPk6CW37MllhuauVLfxMbweLMM.wAu2XwCScDxiW7uc) |
