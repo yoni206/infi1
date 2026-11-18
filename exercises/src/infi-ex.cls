@@ -83,7 +83,7 @@
   {\setlength\fboxsep{0pt}%
    \colorbox{exaccent}{\hspace{\ex@pad}%
     \begin{minipage}[c]{\dimexpr0.78\linewidth-\ex@pad\relax}
-      \color{white}\sffamily
+      \color{white}\sffamily\raggedright
       \vspace{11pt}
       {\footnotesize\addfontfeature{LetterSpace=6}\color{exgold}%
         \excourse\ \textbullet\ \exuniversity\ \textbullet\ \exsemester}\par
@@ -145,7 +145,7 @@
 
 % סעיפים: א, ב, ג... ; תת־סעיפים: 1, 2, 3...
 \newcommand\heblet[1]{\ifcase#1\or א\or ב\or ג\or ד\or ה\or ו\or ז\or ח\or ט\or
-  י\or יא\or יב\or יג\or יד\or טו\or טז\fi}
+  י\or יא\or יב\or יג\or יד\or טו\or טז\or יז\or יח\or יט\or כ\fi}
 \newcommand\hebletcounter[1]{\expandafter\heblet\csname c@#1\endcsname}
 \AddEnumerateCounter{\hebletcounter}{\heblet}{יד}
 \newlist{parts}{enumerate}{2}
@@ -154,6 +154,9 @@
 \setlist[parts,2]{label={\sffamily\color{exmuted}\arabic*.}, leftmargin=1.8em,
   itemsep=3pt, topsep=3pt}
 \setlist[itemize]{label={\color{exgold}\textbullet}, itemsep=2pt, topsep=3pt}
+
+% ---------- תווית בתוך שאלה (למשל: משפט שמותר להשתמש בו / השאלה) ----------
+\newcommand\exlabel[1]{{\mediumsf\color{exaccent}#1:}\ }
 
 % ---------- סיום ----------
 \newcommand\goodluck{%

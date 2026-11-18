@@ -1,0 +1,77 @@
+\documentclass{infi-ex}
+
+\exnumber{6}
+\extopic{שאיפה לאינסוף}
+
+\begin{document}
+\makeextitle
+
+\begin{question}
+\begin{parts}
+  \item תהי $a_n$ סדרה חיובית (כלומר: שכל איבריה חיוביים), ונתון שקיים $N$ כך שלכל $n\ge N$ מתקיים $a_{n+1}>2a_n$. הוכיחו לפי הגדרה כי $a_n\to\infty$.
+
+  רמז: לכל $n>N$ מתקיים $a_n>2a_{n-1}>4a_{n-2}>\dots>2^{n-N}a_N$
+  \item \exlabel{משפט שמותר להשתמש בו} אם $a_n$ סדרה חיובית ו־$\dfrac{a_{n+1}}{a_n}\to q$ כאשר $q\in\R$ ו־$q>1$, אז $a_n\to\infty$.
+
+  \exlabel{השאלה} הוכיחו לפי הגדרה כי אם $a_n$ סדרה חיובית ו־$\dfrac{a_{n+1}}{a_n}\to\infty$ אז $a_n\to\infty$.
+
+  (רעיון: ביחרו $M$ מתאים, והשתמשו בסעיף א'.)
+  \item \exlabel{משפט שמותר להשתמש בו} אם $a_n$ סדרה חיובית ו־$\sqrt[n]{a_n}\to q$ כאשר $q\in\R$ ו־$q>1$, אז $a_n\to\infty$.
+
+  \exlabel{השאלה} הוכיחו כי אם $a_n$ סדרה חיובית ו־$\sqrt[n]{a_n}\to\infty$ אז $a_n\to\infty$.
+\end{parts}
+\end{question}
+
+\begin{question}
+מיצאו (והוכיחו) את הגבולות של הסדרות הבאות
+\begin{parts}
+  \item $a_n=n^5-n^3+n-1$
+  \item $c_n=\sqrt{n+16}-\sqrt{n+9}$
+  \item $r_n=\sqrt[n]{2^n+3^n+\dots+10^n}$
+\end{parts}
+\end{question}
+
+\begin{question}
+תנו דוגמאות לסדרות $a_n\to0,\ b_n\to0$ כך ש־
+\begin{parts}
+  \item $\dfrac{a_n}{b_n}\to\infty$
+  \item $\dfrac{a_n}{b_n}\to15$
+  \item $\dfrac{a_n}{b_n}\to0$
+  \item $\dfrac{a_n}{b_n}\to-\infty$
+  \item $\dfrac{a_n}{b_n}$ לא מתכנסת (גם לא במובן הרחב).
+\end{parts}
+\end{question}
+
+\begin{question}
+\begin{parts}
+  \item הוכיחו לפי הגדרה את כלל "$\infty^C=\infty$" עבור $C>0$ כלומר: הראו לפי הגדרה שאם $a_n\to\infty$ ו־$C>0$ אז $a_n^C\to\infty$.
+  \item תנו דוגמא לסדרה $a_n\to\infty$ ולסדרה $c_n$ המקיימת $c_n>0$ לכל $n$, כך ש־$a_n^{c_n}$ לא שואפת לאינסוף.
+\end{parts}
+\end{question}
+
+\begin{question}
+\begin{parts}
+  \item תהי $a_n$ סדרה מתכנסת למס' ממשי $L>0$. הוכיחו כי $\lim\sqrt[n]{a_n}=1$. (רמז: סנדויץ'. לחלופין לפי משפט שראיתם לאחרונה בהרצאה.)
+  \item אם לא נתון שהסדרה $a_n$ מתכנסת למס' ממשי $L>0$, האם עדיין ניתן להסיק כי בהכרח $\lim\sqrt[n]{a_n}=1$? הוכיחו או תנו דוגמא נגדית.
+\end{parts}
+\end{question}
+
+\begin{question}
+\begin{parts}
+  \item תהי $a_n\to\infty$ ויהי $m\in\N$. הוכיחו לפי הגדרה כי $\lim_{n\to\infty}\sqrt[m]{a_n}=\infty$.
+  \item יהיו $a_n\to\infty,\ b_n\to\infty$. הוכיחו לפי הגדרה כי $a_n+b_n\to\infty$.
+\end{parts}
+\end{question}
+
+\begin{question}
+תנו דוגמאות לסדרות המקיימות $a_n\to\infty,\ b_n\to-\infty$ כך ש־
+\begin{parts}
+  \item $a_n+b_n\to\infty$
+  \item $a_n+b_n\to-\infty$
+  \item $a_n+b_n\to0$
+  \item $a_n+b_n\to10$
+  \item $a_n+b_n$ לא מתכנסת כלל (לא ל־$\infty$, לא ל־$-\infty$ ולא לאף מספר ממשי).
+\end{parts}
+\end{question}
+
+\end{document}
