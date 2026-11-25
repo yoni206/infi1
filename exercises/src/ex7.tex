@@ -1,0 +1,87 @@
+\documentclass{infi-ex}
+
+\exnumber{7}
+\extopic{סדרות מונוטוניות, המספר $e$}
+
+\begin{document}
+\makeextitle
+
+\begin{question}
+\begin{parts}
+  \item \exlabel{מותר להשתמש} בתרגול ראינו כי הסדרה $a_n=\frac1n+\frac1{n+1}+\dots+\frac1{3n}$ מתכנסת.
+
+    \exlabel{השאלה} הראו כי $\lim_{n\to\infty}a_n\ge\frac23$.
+  \item \exlabel{משפט שמותר להשתמש בו} אם $a_n$ סדרה מתכנסת, ו־$x\in\R$ כך ש־$a_n\ge x$ לכל $n$, אז $\lim_{n\to\infty}a_n\ge x$.
+
+    \exlabel{השאלה} בשני המקרים הבאים נתון ש־$a_n$ סדרה מתכנסת. הוכיחו/הפריכו:
+    \begin{parts}
+      \item עומר חושב שאם $a_n>x$ לכל $n$, אז $\lim_{n\to\infty}a_n>x$. האם הוא צודק?
+      \item אדם חושב שאם $a_n>x$ לכל $n$, אז $\lim_{n\to\infty}a_n\ge x$. האם הוא צודק?
+    \end{parts}
+\end{parts}
+\end{question}
+
+\begin{question}
+נסתכל על הסדרה הבאה:
+\[ a_n:\quad \sqrt2,\ \sqrt{2+\sqrt2},\ \sqrt{2+\sqrt{2+\sqrt2}},\ \sqrt{2+\sqrt{2+\sqrt{2+\sqrt2}}},\ \dots \]
+\begin{parts}
+  \item כיתבו את האיבר הכללי של $a_n$ באמצעות נוסחת נסיגה.
+  \item הראו ש־$a_n$ חסומה מלעיל ועולה. הסיקו שהיא מתכנסת, ומיצאו את הגבול שלה.
+\end{parts}
+\end{question}
+
+\begin{question}
+$(a_n)$ מוגדרת ע"י $a_1=1,\ a_{n+1}=\sqrt{3a_n}$. הוכיחו כי היא מתכנסת ומיצאו את גבולה.
+\end{question}
+
+\begin{question}
+תהי סדרה מוגדרת ע"י כלל נסיגה $a_{n+1}=a_n\cdot e^{a_n}$, ונתון $a_1>0$. חשבו את גבול הסדרה.
+
+(רמז: תראו שהסדרה עולה. אם יש לה גבול סופי, מהו? האם זה ייתכן?)
+\end{question}
+
+\begin{question}
+\begin{parts}
+  \item תהי $a_n$ סדרה עולה. יהי $C\in\R$. הוכיחו כי $a_n+C$ עולה.
+  \item תהי $a_n$ סדרה עולה. יהי $C>0$, הוכיחו כי $C\cdot a_n$ עולה. יהי $C<0$, הוכיחו כי $C\cdot a_n$ יורדת.
+  \item תהי $a_n$ סדרה עולה כך ש־$a_n>0$ לכל $n$. הוכיחו/הפריכו: $\frac1{a_n}$ סדרה יורדת.
+  \item תהי $a_n$ סדרה עולה כך ש־$a_n\neq0$ לכל $n$. הוכיחו/הפריכו: $\frac1{a_n}$ סדרה יורדת.
+  \item תהי $a_n$ סדרה עולה כך ש־$a_n\neq0$ לכל $n$. נסמן $b_n=\frac1{a_n}$. הוכיחו/הפריכו: קיים $N$ כך שלכל $n>N$ מתקיים $b_{n+1}\le b_n$.
+  \item יהיו $a_n,b_n$ סדרות עולות. הוכיחו/הפריכו: $a_n+b_n$ סדרה עולה.
+  \item יהיו $a_n,b_n$ סדרות עולות וחיוביות. הוכיחו/הפריכו: $a_nb_n$ עולה.
+  \item יהיו $a_n,b_n$ סדרות מונוטוניות וחיוביות. הוכיחו/הפריכו: $a_n+b_n$ מונוטונית.
+\end{parts}
+\end{question}
+
+\begin{question}
+עבור הסדרות הבאות, מיצאו את $\limsup,\liminf$:
+\begin{parts}
+  \item $a_n=(-1)^{n+1}\cdot\frac{n+12}{n}$
+  \item $b_n=(-2)^n-4$
+\end{parts}
+\end{question}
+
+\begin{question}
+חשבו את הגבולות של הסדרות הבאות:
+\begin{parts}
+  \item $a_n=\left(1-\dfrac1{n^2+6}\right)^{2n^2+n+5}$
+  \item $b_n=\left(\dfrac{n^5-3n}{n^5+2n^2+n}\right)^{n^2-16}$
+  \item $c_n=\left(\dfrac{n^5-1}{n^5+2n}\right)^{n^5+3}$
+  \item $d_n=\left(\dfrac{n+2}{n}\right)^{n\sqrt{n+1}}$
+  \item $p_n=\left(\dfrac{n\sqrt n}{n^2-n+1}\right)^{16n^2-16n-3}$
+\end{parts}
+\end{question}
+
+\begin{question}
+תנו דוגמאות לסדרות המקיימות $a_n\to1,\ b_n\to\infty$, וכך ש־
+\begin{parts}
+  \item $a_n^{b_n}\to0$
+  \item $a_n^{b_n}\to L$ באשר $0<L<1$.
+  \item $a_n^{b_n}\to1$
+  \item $a_n^{b_n}\to L$ באשר $L>1$.
+  \item $a_n^{b_n}\to\infty$
+  \item $a_n^{b_n}$ לא מתכנסת, גם לא במובן הרחב. (*סעיף בונוס -- 3 נקודות)
+\end{parts}
+\end{question}
+
+\end{document}
